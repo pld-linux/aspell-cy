@@ -1,5 +1,5 @@
 Summary:	Welsh dictionary for aspell
-Summary(pl):	Walijski s這wnik dla aspella
+Summary(pl):	S這wnik walijski dla aspella
 Name:		aspell-cy
 Version:	0.50
 %define	subv	3
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Welsh dictionary (i.e. word list) for aspell.
 
 %description -l pl
-Walijski s這wnik (lista s堯w) dla aspella.
+S這wnik (lista s堯w) walijski dla aspella.
 
 %prep
 %setup -q -n %{name}-%{version}-%{subv}
