@@ -10,8 +10,8 @@ Group:		Applications/Text
 Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/cy/%{name}-%{version}-%{subv}.tar.bz2
 # Source0-md5:	d59fee193dba87973b38ac2862a090bb
 URL:		http://aspell.sourceforge.net/
-BuildRequires:	aspell >= 0.50.0
-Requires:	aspell >= 0.50.0
+BuildRequires:	aspell >= 2:0.50.0
+Requires:	aspell >= 2:0.50.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
